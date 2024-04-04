@@ -24,9 +24,9 @@ CREATE TABLE employees (
 
 -- Insert sample data into 'employees' table
 INSERT INTO employees(employee_id, first_name, last_name, email, department_id, salary) VALUES
-(1, 'Aniket', 'Patil', 'ajay.rathod@example.com', 3, 70000), 
-(2, 'Vaibhav', 'Pimple', 'dashrath.reddy@example.com', 1, 60000), 
-(3, 'Ravi', '<mali', 'rohit.yadav@example.com', 2, 75000); 
+(1, 'Aniket', 'Patil', 'aniket.patil@example.com', 3, 70000), 
+(2, 'Vaibhav', 'Pimple', 'vaibhav.pimple@example.com', 1, 60000), 
+(3, 'Ravi', '<mali', 'ravi.mali@example.com', 2, 75000); 
 -- Select all columns from the 'employees' table
 SELECT * FROM employees;
 
